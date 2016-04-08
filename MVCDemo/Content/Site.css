@@ -1,0 +1,71 @@
+﻿body {
+    background-color: #FFF6F0;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+/*My custom css*/
+.page-header{
+    background-color: #E8D6CF;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.header-logo{
+    margin-left: 30px;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+navbar navbar-default navbar-static-top{
+    
+}
+.navbar-default{
+    background-color: #6A1525;
+    color: #FFF6F0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-style:none;
+}
+.jumbotron{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-image: url(Images/junkyard.jpg);
+    background-size: cover;
+}
+.jumbotron .container{
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color:rgba(232, 214, 207, 0.0)
+}
+.nav .navbar-nav .active a:hover{
+    
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav{
+    background-color:#6A1525;
+    color: #FFF6F0;
+}
+.previewThem{
+    margin: auto;
+}
+.thumbnail{
+    margin-top: 30px;
+}
